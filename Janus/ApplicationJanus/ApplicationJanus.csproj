@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryJanus\RepositoryJanus.csproj" />
+    <ProjectReference Include="..\Model.Janus.Domain\Model.Janus.Domain.csproj" />
+    <ProjectReference Include="..\Model.Janus.Contract\Model.Janus.Contract.csproj" />
+  </ItemGroup>
+</Project>

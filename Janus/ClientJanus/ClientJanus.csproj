@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobJanus\JobJanus.csproj" />
+    <ProjectReference Include="..\ApplicationJanus\ApplicationJanus.csproj" />
+    <ProjectReference Include="..\Model.Janus.Contract\Model.Janus.Contract.csproj" />
+  </ItemGroup>
+</Project>
