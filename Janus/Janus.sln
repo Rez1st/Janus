@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationJanus", "Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJanus", "JobJanus\JobJanus.csproj", "{6BB5DEA7-C780-4959-9A10-DC6E89C6FD1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Janus.Core", "Model.Janus.Core\Model.Janus.Core.csproj", "{E7F9F3CF-A652-4BF2-A21A-C18011373E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureJanus", "InfrastructureJanus\InfrastructureJanus.csproj", "{FD539D04-650A-46FB-8740-FD8AF23CF35B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +53,13 @@ Global
 		{6BB5DEA7-C780-4959-9A10-DC6E89C6FD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB5DEA7-C780-4959-9A10-DC6E89C6FD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB5DEA7-C780-4959-9A10-DC6E89C6FD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F9F3CF-A652-4BF2-A21A-C18011373E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F9F3CF-A652-4BF2-A21A-C18011373E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F9F3CF-A652-4BF2-A21A-C18011373E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F9F3CF-A652-4BF2-A21A-C18011373E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD539D04-650A-46FB-8740-FD8AF23CF35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD539D04-650A-46FB-8740-FD8AF23CF35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD539D04-650A-46FB-8740-FD8AF23CF35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD539D04-650A-46FB-8740-FD8AF23CF35B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

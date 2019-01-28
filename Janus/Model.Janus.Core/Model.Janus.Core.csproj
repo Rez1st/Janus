@@ -6,9 +6,5 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
-    <Compile Remove="ForeignLanguage.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Model.Janus.Core\Model.Janus.Core.csproj" />
   </ItemGroup>
 </Project>
