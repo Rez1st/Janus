@@ -11,10 +11,10 @@ namespace RepositoryJanus
         {
             _context = context;
 
-            Tests = new TestRepository(_context);
+            TestRepository = new TestRepository(_context);
         }
 
-        public ITestRepository Tests { get; private set; }
+        public ITestRepository TestRepository { get; private set; }
 
         public int Complete()
         {
