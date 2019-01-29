@@ -33,7 +33,6 @@ namespace ClientJanus.Extentions
             services.ConfigureSwaggerGen(x =>
             {
                 x.DescribeAllEnumsAsStrings();
-                x.IncludeXmlComments(AppContext.BaseDirectory + "Janus.Api.xml");
                 x.IgnoreObsoleteActions();
                 x.IgnoreObsoleteProperties();
             });

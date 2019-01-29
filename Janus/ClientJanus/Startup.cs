@@ -37,20 +37,19 @@ namespace ClientJanus
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/janus/swagger.json", "MyAPI V1");
+                });
             }
             else
             {
                 app.UseHsts();
+                app.UseHttpsRedirection();
             }
 
-            // Swagger
-            app.UseSwagger();  
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("./swagger/v1/swagger.json", "Janus API V1");
-            });
-
-            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
